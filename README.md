@@ -1,5 +1,7 @@
-# Livraria-REST-API
-## Etapas para executar o projeto:
+# Trabalho 2 de Programação avançada WEB
+## Alunos: Vladimir Gama Batista, Yan Zumerle Rangel e Marcos Daniel Guasti Machado.
+## Livraria-REST-API
+### Etapas para executar o projeto:
 * Abrir o projeto no vscode.
 * Abrir o terminal e usar o comando npm install.
 * abrir a pasta config, dentro dela abrir o arquivo dbConnect.js e colocar a string de conexão com banco de dados + o nome do banco de dados depois da barra EX: ("mongodb+srv://danielguasti:daniel123@bancoteste.lryglmh.mongodb.net/livraria?retryWrites=true&w=majority").
