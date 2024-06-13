@@ -1,0 +1,22 @@
+.corpoCabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #01337D;
+}
+
+.ul {
+    display: flex;
+    margin: 10px;
+}
+
+.li {
+    padding: 10px;
+    font-size:large;
+    font-weight: bold;
+    color: #DCEAFF;
+}
+
+.logo {
+    padding-left: 10px;
+}

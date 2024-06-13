@@ -1,0 +1,39 @@
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .title {
+    font-family: "HINDMADURAI 1";
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+  }
+  
+  .textContainer {
+    font-family: "HINDMADURAI 2";
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
+  }
+  

@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'HINDMADURAI';
+    src: url('../../public/fonts/HINDMADURAI-REGULAR.TTF') format('truetype');
+    
+  }
+  
+  @font-face {
+    font-family: 'HINDMADURAI 1';
+    src: url('../../public/fonts/HINDMADURAI-BOLD.TTF') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'HINDMADURAI 2';
+    src: url('../../public/fonts/HINDMADURAI-LIGHT.TTF') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'HINDMADURAI 3';
+    src: url('../../public/fonts/HINDMADURAI-MEDIUM.TTF') format('truetype');
+    
+  }
+
+  @font-face {
+    font-family: 'HINDMADURAI 4';
+    src: url('../../public/fonts/HINDMADURAI-SEMIBOLD.TTF') format('truetype');
+    
+  }
+  
+ 
+  
