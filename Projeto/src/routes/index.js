@@ -11,8 +11,8 @@ const routes = (app) => {
 
   app.use(
     express.json(),
-    auth,
     usuarios,
+    auth,
     livros,
     autores,
     

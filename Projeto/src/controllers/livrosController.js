@@ -64,20 +64,18 @@ class LivroController {
     }
   }
 
-  static listarLivroPorEditora = async (req, res) => {
+  static buscaLivro = async (req, res) => {
     try {
-      const editora = req.query.editora;
+      const busca = {}
+      busca.titulo = req.titulo
+      const resultado = livros.find(busca);
 
-      const livrosResultado = await livros.find({"editora": editora});
-
-      res.status(200).send(livrosResultado);
-    } catch (erro) {
-      res.status(500).json({ message: "Erro interno no servidor" });
+      res.status(200).json(resultado)
+    } catch (error) {
+      res.status(500).json(error)
     }
+
+
   }
-
-
-
 }
-
 export default LivroController

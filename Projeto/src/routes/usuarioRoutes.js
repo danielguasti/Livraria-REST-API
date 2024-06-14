@@ -1,10 +1,8 @@
 import express from "express";
 import UsuarioController from "../controllers/usuariosController.js";
-import autenticado from "../middleware/autenticado.js";
+
 
 const router = express.Router();
-
-router.use(autenticado);
 
 router
   .get("/usuarios", UsuarioController.listarUsuarios)
