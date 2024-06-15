@@ -2,10 +2,15 @@ import Image from "next/image"
 import Logo from "../../img/logo.png"
 import styles from "./index.module.css"
 import Link from "next/link"
+import { authService } from "@/services/auth/authService"
 
 export default function Cabecalho() {
+    const token = authService.getSession();
+    
+
     return(
         <div className={styles.corpoCabecalho}>
+
             <Link className={styles} href="/">
                 <Image 
                     src={Logo}
@@ -17,7 +22,9 @@ export default function Cabecalho() {
             
 
             <ul className={styles.ul}>
+                
                 <Link className={styles.li} href="listagemLivros">Livros</Link>
+
 
                 <Link className={styles.li} href="login">Login</Link>
                 

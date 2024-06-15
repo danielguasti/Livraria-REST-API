@@ -1,9 +1,9 @@
 import { HttpClient } from "@/infra/httpClient";
 
-export const buscaService = {
-    async Busca() {
-        return HttpClient("http://localhost:8000/livros", {
-            method: 'GET',
+export const CadastroUsuarioService= {
+    async Cadastro() {
+        return HttpClient("http://localhost:8000/usuarios", {
+            method: 'POST',
         })
         .then(async (respostaDoServidor) => {
             if(!respostaDoServidor.ok) {
